@@ -1,0 +1,175 @@
+
+/* Name: Your Name */
+/* Roll No: Your Roll Number */
+/* Section: Your Section */
+
+body {
+    background-color: #21160F;
+    color: #F5E6D3;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background-color: #352317;
+    padding: 25px;
+    border-bottom: 3px solid #C18A4A;
+}
+
+h1 {
+    color: #E2AD67;
+    font-size: 45px;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #F5E6D3;
+    letter-spacing: 4px;
+    font-size: 15px;
+}
+
+/* Main Image */
+.main-image {
+    margin: 30px auto;
+    width: 80%;
+    max-width: 850px;
+}
+
+.main-image img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 3px solid #C18A4A;
+}
+
+/* Headings */
+h2 {
+    color: #E2AD67;
+    font-size: 28px;
+    margin-top: 35px;
+}
+
+/* Tagline */
+.tagline {
+    color: #E2AD67;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Welcome Section */
+.welcome {
+    color: #E8D7C3;
+    font-size: 17px;
+    margin: 15px;
+}
+
+/* Food Categories */
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin: 25px;
+}
+
+.category {
+    background-color: #352317;
+    border: 1px solid #A66B38;
+    border-radius: 12px;
+    padding: 20px;
+    width: 220px;
+    transition: 0.3s;
+}
+
+.category:hover {
+    background-color: #513622;
+    transform: translateY(-5px);
+}
+
+.category h3 {
+    color: #E2AD67;
+    font-size: 20px;
+}
+
+.category p {
+    color: #F5E6D3;
+    line-height: 1.6;
+}
+
+/* Menu Table */
+table {
+    width: 85%;
+    max-width: 850px;
+    margin: 25px auto;
+    border-collapse: collapse;
+    background-color: #352317;
+}
+
+th {
+    background-color: #A66B38;
+    color: white;
+    padding: 16px;
+    font-size: 17px;
+}
+
+td {
+    border-bottom: 1px solid #765033;
+    padding: 15px;
+    color: #F5E6D3;
+}
+
+tr:hover {
+    background-color: #513622;
+}
+
+/* Order Section */
+.order-section {
+    margin: 45px 0;
+}
+
+.order-section p {
+    color: #E8D7C3;
+    font-size: 17px;
+}
+
+button {
+    background-color: #C18A4A;
+    color: #21160F;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #E2AD67;
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #352317;
+    border-top: 2px solid #C18A4A;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer h3 {
+    color: #E2AD67;
+    letter-spacing: 2px;
+}
+
+footer p {
+    color: #D5C0A8;
+    font-size: 14px;
+}
